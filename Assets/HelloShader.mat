@@ -4,10 +4,11 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: HelloShader
-  m_Shader: {fileID: 4800000, guid: dab5a7bc8d8c0d04693f0ef194ede250, type: 3}
+  m_Shader: {fileID: 4800000, guid: 9a6f3ebd515a1584da60a3e3d8c29044, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -46,12 +47,24 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MetallicTex:
+        m_Texture: {fileID: 2800000, guid: e527719fc3c04c1438098aab1fd5c40f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: d14f080cb19efb348a34df675e826160, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimDiffuse:
+        m_Texture: {fileID: 2800000, guid: d40f9625c33e5e6468c88ebc4378288a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _myBump:
@@ -87,16 +100,20 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _Emissive: 6.4
+    - _Gloss: 1
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0.35
     - _GlossyReflections: 1
-    - _Metallic: 0
+    - _Metallic: 0.72
     - _Mode: 0
     - _MySliderValue: 10
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _RimPower: 0.5
+    - _SliderRange: 10
     - _SmoothnessTextureChannel: 0
+    - _Spec: 0.16
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
@@ -107,9 +124,10 @@ Material:
     - _mySlider: 1
     m_Colors:
     - _AmbientColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.091, g: 0, b: 0.68275833, a: 1}
+    - _Color: {r: 0.8962264, g: 0.43543077, b: 0.47145483, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimColor: {r: 0.6509434, g: 0.11360805, b: 0.22978629, a: 0}
+    - _SpecColor: {r: 0.2264151, g: 0.9056604, b: 0.32999024, a: 1}
     - _myColour: {r: 0.7264151, g: 0.11307406, b: 0.49860275, a: 1}
     - _myEmission: {r: 0.5188679, g: 0.11992703, b: 0.11992703, a: 1}
     - _myNormal: {r: 0.8263998, g: 0, b: 1, a: 1}
